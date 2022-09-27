@@ -3,7 +3,7 @@
                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                             xmlns:clinic="http://www.infomed.co.il">
-<xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
+<xsl:output method='html' encoding='UTF-8'/>
     <xsl:template match="rdf:RDF/foaf:Person">
         <h2>Olivier FRANCOU informations</h2>
         <table border="1" style="width:100%">
@@ -30,5 +30,6 @@
                 <td><xsl:value-of select="foaf:schoolHomepage/@rdf:resource"/></td>
             </tr>
         </table>
+        <xsl:text>&#013;</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
