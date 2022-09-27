@@ -18,7 +18,7 @@
                         <th>Site de l'ecole</th>
                     </tr>
                     <tr>
-                        <td><xsl:value-of select="rdf:RDF/Person/foaf:name"/></td>
+                        <td><xsl:value-of select="RDF/Person/name"/></td>
                         <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:title"/></td>
                         <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:givenname"/></td>
                         <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:family_name"/></td>
