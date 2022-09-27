@@ -8,7 +8,7 @@
         <h2>Olivier FRANCOU informations</h2>
         <table border="1">
             <tr>
-                <th>Nom Prénom</th>
+                <th>Nom Prénom</th>f
                 <th>Genre</th>
                 <th>Prenom</th>
                 <th>Nom de famille</th>
@@ -24,7 +24,7 @@
                 <td><xsl:value-of select="foaf:givenname"/></td>
                 <td><xsl:value-of select="foaf:family_name"/></td>
                 <td><xsl:value-of select="foaf:nick"/></td>
-                <td><xsl:value-of select="foaf:phone"/></td>
+                <td><xsl:value-of select="foaf:phone/@rdf:resource"/></td>
                 <td><xsl:value-of select="foaf:mbox_sha1sum"/></td>
                 <td><xsl:value-of select="foaf:homepage/@rdf:resource"/></td>
                 <td><xsl:value-of select="foaf:schoolHomepage/@rdf:resource"/></td>
