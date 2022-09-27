@@ -3,10 +3,10 @@
                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                             xmlns:clinic="http://www.infomed.co.il">
-<xsl:output method='html' encoding='UTF-8'/>
+<xsl:output method='html' indent="yes"/>
     <xsl:template match="rdf:RDF/foaf:Person">
         <h2>Olivier FRANCOU informations</h2>
-        <table border="1" style="width:100%">
+        <table border="1">
             <tr>
                 <th>Nom Prénom</th>
                 <th>Genre</th>
